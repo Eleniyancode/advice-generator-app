@@ -23,7 +23,7 @@ const getAdvice = async function() {
         setTimeout(() => {
             spinnerEl.classList.add('hidden');
             containerEl.classList.remove('hidden')
-        }, 6000)
+        }, 3000)
 
         const res = await fetch('https://api.adviceslip.com/advice');
         console.log(res);
